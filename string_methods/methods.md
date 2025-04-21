@@ -1,6 +1,8 @@
-`String name = "Saksham";`
 ## Some common methods
-` name.length()` -> Returns length of String name
+
+`String name = "Saksham";`
+
+` name.length()` -> Returns length of String name  
 `name.toLowerCase()` -> Returns a new string which has all the lowercase characters from the string name
 `name.toUpperCase()` -> Returns a new string which has all the uppercase characters from the string name
 `name.trim()` -> Returns a new string after removing all the leading and trailing spaces from the original string
