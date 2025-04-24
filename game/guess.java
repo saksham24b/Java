@@ -26,7 +26,7 @@ public class guess {
             else{
                 System.out.println("Wrong input.");
             }
-        }
+        }sc.close();
 
         if(!win){
             System.out.println("You lost.");
