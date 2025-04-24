@@ -5,9 +5,9 @@ public class rockPaper{
         Scanner sc = new Scanner(System.in);
         System.out.println("Rock Paper Scissors!!");
         System.out.println("Choose from following:");
-        System.out.println("1: (rock)");
-        System.out.println("2: (paper)");
-        System.out.println("3: (scissor)");
+        System.out.println("1: rock");
+        System.out.println("2: paper");
+        System.out.println("3: scissor");
 
         System.out.println("_____________________");
 
@@ -33,7 +33,7 @@ public class rockPaper{
                     System.out.println("Tie!");
                     ++ties;
                 }
-                else if(input==1 && botChoice.equals("(scissor)") || input ==2 && botChoice.equals("(rock)") || input ==3 && botChoice.equals("(paper)")){
+                else if(input==1 && botChoice.equals("scissor") || input ==2 && botChoice.equals("rock") || input ==3 && botChoice.equals("paper")){
                     System.out.println("You Wins!");
                     ++wins;
                 }
@@ -63,11 +63,11 @@ public class rockPaper{
     public static String choose(int num){
         switch (num){
             case 1:
-            return "(rock)";
+            return "rock";
             case 2:
-            return "(paper)";
+            return "paper";
             case 3:
-            return "(scissor)";
+            return "scissor";
             default:
             return "Invalid";
         }
