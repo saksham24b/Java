@@ -29,6 +29,7 @@ public class string {
         System.out.printf("Is it equal to sAkshaM: %s\n", name.equalsIgnoreCase("sAkshaM"));
         //Escape sequence
         System.out.printf("\\ is used to escape sequence like this \"");
+        sc.close();
     }
 }
  
